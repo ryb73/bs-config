@@ -4,7 +4,7 @@
   "description": "BuckleScript bindings for https://www.npmjs.com/package/config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: no test specified\"",
+    "test": "jest",
     "build": "npm run clean && bsb -make-world",
     "watch": "npm run clean && bsb -make-world -w",
     "clean": "rm -rf lib && bsb -clean-world",
@@ -27,6 +27,7 @@
     "bs-platform": "^5.0.0"
   },
   "dependencies": {
+    "@glennsl/bs-jest": "^0.4.8",
     "config": "^3.0.1"
   }
 }
