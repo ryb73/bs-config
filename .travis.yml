@@ -3,7 +3,7 @@ cache: yarn
 node_js:
 - '11'
 script:
-- yarn add bs-platform
+- npm i bs-platform
 - yarn build
 - yarn test
 deploy:
@@ -13,6 +13,5 @@ deploy:
   on:
     tags: true
     branch: master
-    repo: ryb73/bs-config
   api_key:
     secure: pqntViajJG0wWWspccH5gvYyC+7LNlXHKhGYKPFgo50Fcw2P0fJdolIit8Fhe7kydkDMsdqZN+Tc8H2Ekd+utWHiNOE4XSFTMkizn/EWkYlu3cqFmfYdAi2xjQe8vN8B7jlqqYcODvC04Cs9/VaLqLvxK59K0SkEwtoUV/tLqKpE4ofpxUsnZbgkS0H9oBBW09YVbqP5mYID9vMqZuVgk2U+41AiqS1/+9ifsLpUqAwo1WkFTuE84jEJnq/RQd6gabt2X6zeTl+brZee2pq9xD2uUE9spnz237aX3FoZtWzsaeR3mkJyJbWxZChH9xWmUYBZlp+soAy27IWNI54xQzqv/sa66vVhD70wk2WOaCDzcTZ1ogN8dCi0LvbPxxj65grVwzwcEwh2lcpt8kIs3e5k5BZp6NB3rGpWjWdxLIz+s2ivmiao60UUlYWPTiM9IQiMebfG5YQcO+87JaiDw+I93DWSHdFNy5kKcnhWPj+fKxVz9IRhPWq0KKoVlQza6Q6b4slhI+3tMO/Q8qzfelTNAmKZjVPogRX9tvCVeLP2udWo5eEDREUZbpNE6YDfhau/n8X5zkRsaQGWZBdZcMuDxWVG9A55eMEuEzRgnpC5KzFIf6DoDqIe3itzDgCvHjf4quWs+mxC68arPq+zA3gVs6UMnCFxh1FPqTH4+mg=
