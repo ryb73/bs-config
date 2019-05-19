@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "@glennsl/bs-jest": "^0.4.8",
-    "config": "^3.0.1"
+    "config": "^3.1.0"
   }
 }
