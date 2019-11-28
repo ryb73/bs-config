@@ -12,8 +12,7 @@
   },
   "files": [
     "/bsconfig.json",
-    "/src",
-    "/lib/js/src"
+    "/src"
   ],
   "keywords": [],
   "license": "MIT",
@@ -24,10 +23,13 @@
     "url": "git@github.com:ryb73/bs-config.git"
   },
   "peerDependencies": {
-    "bs-platform": "^5.0.0"
+    "bs-platform": "^5.0.0 || ^6.0.0"
   },
   "dependencies": {
-    "@glennsl/bs-jest": "^0.4.8",
-    "config": "^3.1.0"
+    "@glennsl/bs-jest": "^0.4.9",
+    "config": "^3.2.4"
+  },
+  "devDependencies": {
+    "bs-platform": "^6.0.0"
   }
 }
