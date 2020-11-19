@@ -23,13 +23,14 @@
     "url": "git@github.com:ryb73/bs-config.git"
   },
   "peerDependencies": {
-    "bs-platform": "^5.0.0 || ^6.0.0"
+    "bs-platform": "6 || 7 || 8"
   },
   "dependencies": {
-    "@glennsl/bs-jest": "^0.4.9",
     "config": "^3.2.4"
   },
   "devDependencies": {
-    "bs-platform": "^6.0.0"
+    "@glennsl/bs-jest": "^0.4.9",
+    "bs-platform": "8",
+    "jest": "^24.3.1"
   }
 }
